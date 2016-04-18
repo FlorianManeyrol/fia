@@ -24,14 +24,14 @@
  	&-title {
  		color:#3D321C;
  		text-transform:uppercase;
- 		padding:60px;
+ 		padding-top:60px;
  		font-size:40px;
  		width:900px;
  		margin:0 auto;
  	}
  	&-title-project {
  		color:#DB9500;
- 		padding-bottom:60px;
+ 		padding:60px 15px;
  		font-size:30px;
  		font-weight:bold;
  	}
@@ -39,7 +39,9 @@
 
  .project-card {
  	background-color:white;
- 	padding-bottom:30px;
+ 	margin-bottom:30px;
+ 	border: 0.5px solid grey;
+ 	border-radius:3px;
  	.img-1 {
  		background-image: image-url('pano.jpg');
  		background-size: cover;
@@ -99,4 +101,22 @@
  	}
  }
 
+.see-more {
+	padding:60px;
+}
+
+.cta-project {
+	background-color:#A3320C;
+	height:300px;
+	width:100%;
+	background-image: image-url('profile.svg');
+	background-repeat: repeat;
+	background-size:60px;
+	background-repeat: space;
+	.cta-text {
+		color:white;
+		font-size:30px;
+		margin-bottom:30px;
+	}
+}
 
