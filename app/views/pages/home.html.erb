@@ -1,2 +1,61 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+	<div class="jumbo">
+		<div class="filter-black flex-container">
+			<div class="flex-item text-center">
+				<h1>DES SOLUTIONS POUR <br> UNE AFRIQUE EMERGEANTE.</h1>
+				<%= link_to 'Découvrez les projets', root_path, class: 'btn-medium-red' %>
+				<%= link_to 'Proposez un projet', root_path, class: 'btn-medium-yellow'%>
+			</div>
+		</div>
+	</div>
+
+	<div class="discover text-center">
+		<div class="discover-title">
+			Decouvrez des projets innovants ambitieux et solides
+		</div>
+		<div class="discover-title-project">
+			Les projets coup de coeur
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="project-card">
+						<div class="img-1">
+						</div>
+						<div class="description">
+							DÉVELOPPER LE COLLÈGE SAINT-JEAN BAPTISTE DE BANGOU.
+						</div>
+						<div class="location">
+							<div class="icon">
+								<%= image_tag "placeholder.svg" %>
+							</div>
+							<div class="location-text">
+								Bangou, OUEST
+							</div>
+						</div>
+						<div class="price-day">
+							<div class="price">
+								€120 (6%)
+							</div>
+							<div class="day">
+								16 jours restants
+							</div>
+						</div>						
+						<div class="statement">	
+							<progress id="avancement" value="30" max="100"></progress>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project-card">
+						boom
+					</div>	
+				</div>
+				<div class="col-md-4">
+					<div class="project-card">
+						boom
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
