@@ -1,3 +1,4 @@
+_homefiatope.scss
 /* -------------------------------------
  * CSS code specific to home page
  * (margin/padding adjustments)
@@ -5,16 +6,16 @@
 
 
  .jumbo {
- 	background-image: image-url('togother.jpg');
+ 	background-image: image-url('pano.jpg');
  	width:100%;
  	height: calc(100vh - 70px);
  	background-size: cover;
  	background-position: center;
  	h1 {
  		color:white;
- 		font-size: 50px;
+ 		font-size: 65px;
  		font-weight: 500;
- 		// text-shadow: 0px 1px 3px black;
+ 		text-shadow: 0px 1px 3px black;
  		margin-bottom:50px;
  	}
  }
@@ -22,13 +23,12 @@
  .discover {
  	background-color:#F5F9F9;
  	&-title {
- 		color:#333333;
+ 		color:#3D321C;
  		text-transform:uppercase;
  		padding-top:60px;
- 		font-size:35px;
+ 		font-size:40px;
  		width:900px;
  		margin:0 auto;
- 		font-family:Montserrat;
  	}
  	&-title-project {
  		color:#DB9500;
@@ -146,11 +146,4 @@
 
 .partner-icon {
 	height:100px;
-}
-
-.filter-black {
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 100%;
-  height: 100%;
-  min-height: calc(100vh - 70px);
 }
